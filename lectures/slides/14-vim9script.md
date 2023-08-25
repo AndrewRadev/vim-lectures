@@ -145,7 +145,7 @@ vim9script
 
 def g:Global(one: number, two: number): bool
   var sum = Local(one, two)
-  sum -= 1
+  sum += 1
 
   return sum > 0
 enddef
